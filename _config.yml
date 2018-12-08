@@ -1,16 +1,24 @@
 # Site settings
-title: *folio
-email: you@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
-baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
-twitter_username: twitter_username
-github_username:  github_username
+
+# Base hostname & protocol for your site
+url: "micutio.github.io"
+# Subpath of your site, e.g. /blog/
+baseurl: ""
+# Title of the website 
+title: "Artificial Life Simulations - From Simple to Complex"
+description: "A website/blog about building simulations and exploring complexity"
+keywords: "artificial life, complexity, cellular automaton, agents, agent-based, simulation"
+
+email: "wagner.mchl@googlemail.com"
+github_username:  "micutio"
+
+google_analytics: "UA-79753372-1"
+repo: https://github.com/Micutio/micutio.github.io
+disqus_shortname: "micutiogithubio"
+disqus_site_shortname: "micutiogithubio"
 
 # Build settings
 markdown: kramdown
-
 highlighter: rouge
 
 # Pagination
