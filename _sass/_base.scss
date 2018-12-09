@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
 $base-line-height:              1.5em;
@@ -39,7 +37,6 @@ $text-color:     #666;
 /* Set theme color *************************/
 $theme-color:   $red;
 
-
 /************************************************************/
 
 /**
@@ -54,8 +51,6 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
