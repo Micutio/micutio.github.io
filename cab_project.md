@@ -4,10 +4,7 @@ title: The CAB Project
 permalink: /cab_project/
 ---
 
-
-## The Complex Automaton Base Project
-
-The [CAB](https://github.com/Micutio/ComplexAutomatonBase) is a lightweight
+The [Complex Automaton](https://github.com/Micutio/ComplexAutomatonBase) is a lightweight
 framework that is designed to create customized complex automata rapidly and
 with ease. Complex Automata are composed of cellular automata (CA) and
 agent-based models (ABM).
