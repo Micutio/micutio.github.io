@@ -43,4 +43,4 @@ Under construction
 
 # Create your own agents & cells and plug them into the system
 
-<img src="{{base}}/img/cab_organization_1.png" width="800" align="middle">
+![CAB Organization]({{base}}/img/cab_organization_1.png "CAB architecture overview")
