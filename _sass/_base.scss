@@ -32,11 +32,12 @@ $purple: #B509AC;
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
+$grey-color-lighter: #f7f7f7;
 $text-color:     #666;
 
 /* Set theme color *************************/
-$theme-color:   $red;
-
+// $theme-color:   $red;
+$theme-color:   $purple;
 /************************************************************/
 
 /**
@@ -65,7 +66,6 @@ ul, ol, dl, figure,
     float: right;
 }
 
-
 hr{
     /* Inset, by Dan Eden */
     border: 0;
@@ -74,7 +74,6 @@ hr{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 
 }
-
 
 /**
  * Figures
@@ -86,8 +85,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -103,15 +100,12 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
 }
-
 
 /**
  * Links
@@ -133,13 +127,10 @@ a {
 article a {
     color: $theme-color;
     font-weight: 100;
-
     &:hover {
         text-decoration: none;
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -156,8 +147,6 @@ blockquote {
     }
 }
 
-
-
 /**
  * Code formatting
  */
@@ -165,7 +154,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: $grey-color-light;
+    background-color: $grey-color-lighter;
 }
 
 code {
@@ -175,7 +164,6 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-
     > code {
         border: 0;
         padding-right: 0;
@@ -183,12 +171,9 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
- */ 
-
+ */
 .wrapper {
     max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
     max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
@@ -206,7 +191,6 @@ pre {
     }
 }
 
-
 /**
  * Clearfix
  */
@@ -218,6 +202,3 @@ pre {
         clear: both;
     }
 }
-
-
-
