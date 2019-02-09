@@ -4,23 +4,16 @@ title: The CAB Project
 permalink: /cab_project/
 ---
 
-The [Complex Automaton](https://github.com/Micutio/ComplexAutomatonBase) is a lightweight
-framework that is designed to create customized complex automata rapidly and
-with ease. Complex Automata are composed of cellular automata (CA) and
-agent-based models (ABM).
+## The Concept of the CAB Project
 
+This blog is part of the __Complex Automaton Base__ (CAB) project. The CAB is a base or framework for computer
+simulations. These take place in a discretized space, the so called
+[cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) which at its core is a grid of cells, each
+carrying its own internal state. A state change in a cell is often dependent on the states of its neighboring cells.
+This makes cellular automata an ideal tool to model and simulate spatial propagation properties, like the spread of
+forest fires, percolation through different layers of soil and heat convection.
 
-## Cellular Automaton
-
-A [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) essentially is a regular grid of cells. Each
-of its cells can 'look' at its neighboring cells and update its own properties depending on the neighbor states. A
-typical CA update cycle has all the cells within the automaton carry out their update methods.
-
-CAs are a great model to explore the propagation of states or attributes through space because of the cell's dependency
-on their spatial neighborhood. Some popular applications for CA models are spread of forest fires, floods and similar
-spatially focused scenarios.
-
-### Example: The Game of Life
+---
 
 One of the most popular implementations of the CA is the
 [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) by John Conway. In this model cells have two
@@ -34,10 +27,24 @@ states: they can be either dead or alive. Which state they are is given by a set
 At the start of the game, all cells are randomly set to being alive or dead. Then the automaton repeats its update
 cycle.
 
-## Agent-based Model
+---
 
-Under construction
+Additionally the CAB also allows to
+create an [agent-based systems](https://en.wikipedia.org/wiki/Agent-based_model) on top of the cellular automaton.
+Agents are autonomously 'thinking' entities which can act and interact with each other. Agent-based systems are often
+used to model and simulate interactions and behavior between people, robots - or on more abstract levels computers in
+networks.
 
-# Create your own agents & cells and plug them into the system
+By combining both approaches - which is commonly referred to as _Complex Automaton_ - the CAB allows agents to act and
+interact within a two-dimensional space. Using the cell states and update functions allows agents to manipulate not
+only themselves but also the space they are living in.
+
+## Implementation and Programming of the CAB
+
+The CAB is written in the [Python](https://www.python.org/) programming language and designed to make creating agent-
+based and/or cellular simulations as quick and easy as possible. This way more time can be spent on designing and
+prototyping models & simulations and less time on implementing them.
+
+## Create your own experiments
 
 ![CAB Organization]({{base}}/img/cab_organization_1.png "CAB architecture overview")
