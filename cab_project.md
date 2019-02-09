@@ -4,7 +4,7 @@ title: The CAB Project
 permalink: /cab_project/
 ---
 
-## The Concept of the CAB Project
+### The Concept of the CAB Project
 
 This blog is part of the __Complex Automaton Base__ (CAB) project. The CAB is a base or framework for computer
 simulations. These take place in a discretized space, the so called
@@ -39,12 +39,21 @@ By combining both approaches - which is commonly referred to as _Complex Automat
 interact within a two-dimensional space. Using the cell states and update functions allows agents to manipulate not
 only themselves but also the space they are living in.
 
-## Implementation and Programming of the CAB
+### Inspiration for the CAB
 
-The CAB is written in the [Python](https://www.python.org/) programming language and designed to make creating agent-
-based and/or cellular simulations as quick and easy as possible. This way more time can be spent on designing and
-prototyping models & simulations and less time on implementing them.
+A couple years back during research work I came across the [MASON](https://cs.gmu.edu/~eclab/projects/mason/)
+simulation framework and used it for some of my own experiments. MASON is a very powerful tool that helps build a wide
+range of simulations and comes with a lot examples that are thoroughly interesting to play with. When using it for
+quickly prototyping simulations however it felt somewhat clunky at times. The sheer number of Java interfaces and
+generic programming that makes MASON so powerful also make it hard to understand its inner workings and get going with
+new experiments from scratch.
 
-## Create your own experiments
+Coincidentally at the same time I started learning [Python](https://www.python.org/) and figured that it makes for a
+number of good programming exercises to reimagine a MASON-like framework in Python. The main design goal of this
+project is to make creating agent-based and/or cellular simulations as quick and easy as possible. This way more time
+can be spent on designing and prototyping simulations and less time on implementing work.
 
-![CAB Organization]({{base}}/img/cab_organization_1.png "CAB architecture overview")
+<!-- ### Create your own experiments
+TODO: Create new graphic and write tutorial on how to create custom simulations
+TODO: Add more images in general here.
+![CAB Organization]({{base}}/img/cab_organization_1.png "CAB architecture overview") -->
