@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/author.png">
+<img class="col one right" src="/img/author.jpg">
 
 <br/>
 I am Michael Wagner and this website is about one of my passion projects: *Complex Systems*.
