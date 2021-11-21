@@ -11,6 +11,14 @@
         </canvas>
         <script src="/wasm/innit.js"></script>
         <script>
+            var arrow_keys_handler = function (e) {
+                switch (e.code) {
+                    case "ArrowUp": case "ArrowDown": case "ArrowLeft": case "ArrowRight":
+                    case "Space": e.preventDefault(); break;
+                    default: break; // do not block other keys
+                }
+            };
+            window.addEventListener("keydown", arrow_keys_handler, false);
             window.addEventListener("load", async () => {
                 await wasm_bindgen("/wasm/innit_bg.wasm");
             });
