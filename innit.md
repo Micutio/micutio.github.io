@@ -4,6 +4,8 @@ title: Innit - An immune system roguelike
 permalink: /innit/
 ---
 
+## Innit (alpha 0.0.4)
+
 <canvas id="canvas" height="450" width="750">
     canvas tag not supported
 </canvas>
@@ -22,7 +24,7 @@ permalink: /innit/
     });
 </script>
 
-[Play in dedicated tab](https://micutio.github.io/innit.html)
+<!-- [Play in dedicated tab](https://micutio.github.io/innit.html) -->
 
 ## How to play
 
