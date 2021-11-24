@@ -41,3 +41,4 @@ permalink: /innit/
 | <kbd>SPACE</kbd>                                       | pass turn                                               |
 | <kbd>C</kbd>                                           | character information                                   |
 | <kbd>F1</kbd>                                          | display controls                                        |
+| <kbd>ESC</kbd>                                         | return to main menu controls                            |
