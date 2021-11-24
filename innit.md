@@ -32,7 +32,12 @@ permalink: /innit/
 | :----------------------------------------------------- | :------------------------------------------------------ |
 | Arrow keys                                             | primary action into north, east, south west direction   |
 | <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, <kbd>D</kbd> | secondary action into north, east, south west direction |
+| <kbd>SHIFT</kbd> + <kbd>P</kbd>                        | reassign primary action                                 |
+| <kbd>SHIFT</kbd> + <kbd>S</kbd>                        | reassign secondary action                               |
 | <kbd>Q</kbd>                                           | primary quick action on self                            |
+| <kbd>SHIFT</kbd> + <kbd>Q</kbd>                        | reassign primary quick action                           |
 | <kbd>E</kbd>                                           | secondary quick action on self                          |
-| <kbd>space</kbd>                                       | pass turn                                               |
+| <kbd>SHIFT</kbd> + <kbd>E</kbd>                        | reassign secondary quick action                         |
+| <kbd>SPACE</kbd>                                       | pass turn                                               |
 | <kbd>C</kbd>                                           | character information                                   |
+| <kbd>F1</kbd>                                          | display controls                                        |
