@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Innit - An immune system roguelike
+title: Innit
 permalink: /innit/
 ---
 
-## Innit (alpha 0.0.4)
+## A game about the immune system (alpha 0.0.5)
 
-<canvas id="canvas" height="450" width="750">
+<canvas id="canvas">
     canvas tag not supported
 </canvas>
 <script src="/wasm/innit.js"></script>
@@ -46,16 +46,20 @@ permalink: /innit/
 
 ## About the game
 
-The game is set to take place inside a living organism that is not specified further but will resemble humans, given that most game-play mechanics are derived from actual biological processes in humans and/or animals.
+NOTE: The current alpha version of the game only contains viruses and plasmids. Bacteria are planned but not yet implemented.
 
-It is supposed to revolve around fighting off viral and bacteria infections inside the host organism, all the while trying not to get caught up in the host's immune system response yourself.
+The game takes place inside the human body.
 
-The player is an artificially engineered cell introduced into the host by scientists. This allows for a narrative where the player can make use of various mechanics that in reality are restricted to bacteria, immune response cells and such.
+It revolves around fighting off viral and bacteria infections inside the host organism, all the while trying not to get caught up in the immune system response yourself.
+
+The player controls an futuristic artificially engineered cell introduced into the host by scientists. You can make use of various mechanics that in reality are restricted to bacteria, immune response cells and such.
+
+### Core mechanics
+
+The core feature of the game is that everything is based on DNA: the player cell, viruses, plasmids and even the tissue that makes up the game world is alive and carries individual DNA. The player can manipulate their own DNA to increase their chances of fighting off the infection. It goes as far as changing you receptors to make yourself immune against viruses and other pathogens.
 
 ### NPCs and other objects
 
 Viruses can infect cells including the player and interrupt their activities to cause them to produce more virus DNA instead and destroying the cell in the process.
 
-Bacteria can directly attack cells and try to multiply their numbers to overpower the defenses. Using plasmids they can propagate part of their DNA and the resulting useful and harmful traits. The player is also able to use plasmids.
-
-The immune system will consist of a number of cells, initially of two: antibodies that directly attack pathogens and memory cells that can trigger quick mass releases of the former. These will attack all objects with certain antigen markers, including the player. One way to avoid getting attacked is to keep distance or manipulate the own genome to drop antigen marker traits.
+Plasmids are inanimate objects that can be used to acquire new DNA, manipulate existing one or transfer it to other entities. In the future these will be heavily used by bacteria.
