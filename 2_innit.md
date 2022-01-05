@@ -24,7 +24,7 @@ permalink: /innit/
     });
 </script>
 
-<!-- [Play in dedicated tab](https://micutio.github.io/innit.html) -->
+[Play in dedicated tab](https://micutio.github.io/innit.html)
 
 ## How to play
 
