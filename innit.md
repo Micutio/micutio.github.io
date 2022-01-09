@@ -4,7 +4,7 @@ title: Innit
 permalink: /innit/
 ---
 
-## A game about the immune system (alpha 0.0.5)
+## A game about the immune system (alpha 0.0.6)
 
 <canvas id="canvas">
     canvas tag not supported
