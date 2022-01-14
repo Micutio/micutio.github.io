@@ -2,29 +2,44 @@
 
 <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            background-color: #292929;
+            /* IE, only works on <img> tags */
+            -ms-interpolation-mode: nearest-neighbor;
+            /* Firefox */
+            image-rendering: crisp-edges;
+            /* Chromium + Safari */
+            image-rendering: pixelated;
+        }
+
+        canvas {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
 </head>
 
 <body>
-    <p>
-        <canvas id="canvas">
-            canvas tag not supported
-        </canvas>
-        <script src="/wasm/innit.js"></script>
-        <script>
-            var arrow_keys_handler = function (e) {
-                switch (e.code) {
-                    case "ArrowUp": case "ArrowDown": case "ArrowLeft": case "ArrowRight":
-                    case "Space": e.preventDefault(); break;
-                    default: break; // do not block other keys
-                }
-            };
-            window.addEventListener("keydown", arrow_keys_handler, false);
-            window.addEventListener("load", async () => {
-                await wasm_bindgen("/wasm/innit_bg.wasm");
-            });
-        </script>
-    </p>
-
+    <canvas id="canvas"> </canvas>
+    <script src="/wasm/innit.js"></script>
+    <script>
+        var arrow_keys_handler = function (e) {
+            switch (e.code) {
+                case "ArrowUp": case "ArrowDown": case "ArrowLeft": case "ArrowRight":
+                case "Space": e.preventDefault(); break;
+                default: break; // do not block other keys
+            }
+        };
+        window.addEventListener("keydown", arrow_keys_handler, false);
+        window.addEventListener("load", async () => {
+            await wasm_bindgen("/wasm/innit_bg.wasm");
+        });
+    </script>
 </body>
 
 </html>
